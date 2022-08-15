@@ -22,7 +22,7 @@ a {
 }
 
 h3, h1, h5 {
-    color: white;
+    color: rgba(0, 0, 0, 0.519);
 }
 
 .btn {
@@ -40,6 +40,10 @@ h3, h1, h5 {
     margin-right: 0.5rem;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -48,7 +52,11 @@ header {
     display: flex;
     flex-direction: column;
     height: 90vh;
-    background-color: rgb(4, 30, 21);
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top -10rem center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .social-icons ul {
@@ -57,7 +65,7 @@ header {
 }
 
 .social-icons ul li {
-    padding: 10px;
+    padding: 1.2rem;
 }
 
 .header-subtitle {
@@ -71,16 +79,21 @@ header {
     margin-top: -2.5rem;
 }
 
+.header-content {
+    margin-top: 12rem;
+}
+
 .header-content h5 {
     margin-top: -1.9rem;
-    font-size: 1.7rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
     font-weight: 300;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
 }
 
 /* nav */
 nav {
-    border-top: 1px solid red;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 nav ul {
     display: flex;
@@ -98,5 +111,26 @@ nav ul li a {
 
 nav ul li a:hover {
     color: rgb(63, 61, 61);
+}
+
+nav .avatar-name {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .avatar-name .my-name {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+nav .avatar-name:last-child {
+    color: rgba(0, 0, 0, 0.899);
+}
+
+#logo {
+    width: 14rem;
+    border: 10px solid white;
+    border-radius: 50%;
+    box-shadow: 6px 9px 10px 1px rgba(179,172,179,1);
 }
 
