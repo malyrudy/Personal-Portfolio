@@ -151,7 +151,7 @@ nav .avatar-name:last-child {
 
 .about-card h2 {
     font-size: 1.9rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .about-card span {
@@ -219,4 +219,20 @@ nav .avatar-name:last-child {
 .my-expertise ul li i {
     width: 2rem;
     margin-right: 1rem;
+}
+
+/* My Resume */
+.my-resume h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.my-resume h2 span {
+    color: rgb(200, 72, 94);
+}
+
+/* Banner */
+.banner {
+    
 }
